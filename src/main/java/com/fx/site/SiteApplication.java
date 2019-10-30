@@ -1,6 +1,5 @@
 package com.fx.site;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -9,7 +8,6 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Profile;
 
 @SpringBootApplication
-@MapperScan("com.fx.site.dao")
 @EnableCaching
 public class SiteApplication extends SpringBootServletInitializer {
 

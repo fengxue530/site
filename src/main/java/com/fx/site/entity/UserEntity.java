@@ -1,14 +1,17 @@
 package com.fx.site.entity;
 
 import lombok.Data;
+import lombok.Getter;
 import lombok.NonNull;
+import lombok.Setter;
 
 /**
  * @auther: mabaofeng
  * @date: 2019/10/29 13:55
  * @description:
  */
-@Data
+@Setter
+@Getter
 public class UserEntity {
 
     /** 主键编号 */

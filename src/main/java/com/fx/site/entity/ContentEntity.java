@@ -1,13 +1,17 @@
 package com.fx.site.entity;
 
 import lombok.Builder;
+import lombok.Getter;
 import lombok.NonNull;
+import lombok.Setter;
 
 /**
  * @auther: mabaofeng
  * @date: 2019/10/29 11:20
  * @description: 文章实体
  */
+@Setter
+@Getter
 public class ContentEntity {
 
     /**

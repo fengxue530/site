@@ -1,14 +1,17 @@
 package com.fx.site.entity;
 
 import lombok.Data;
+import lombok.Getter;
 import lombok.NonNull;
+import lombok.Setter;
 
 /**
  * @auther: mabaofeng
  * @date: 2019/10/29 10:49
  * @description:  评论实体
  */
-@Data
+@Setter
+@Getter
 public class CommentEntity {
 
     /**

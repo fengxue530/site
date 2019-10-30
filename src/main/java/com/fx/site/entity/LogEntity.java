@@ -1,7 +1,9 @@
 package com.fx.site.entity;
 
 import lombok.Data;
+import lombok.Getter;
 import lombok.NonNull;
+import lombok.Setter;
 
 import java.io.Serializable;
 
@@ -10,7 +12,8 @@ import java.io.Serializable;
  * @date: 2019/10/29 11:43
  * @description: 日志实体
  */
-@Data
+@Setter
+@Getter
 public class LogEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;

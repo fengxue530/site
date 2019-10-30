@@ -1,14 +1,17 @@
 package com.fx.site.entity;
 
 import lombok.Data;
+import lombok.Getter;
 import lombok.NonNull;
+import lombok.Setter;
 
 /**
  * @auther: mabaofeng
  * @date: 2019/10/29 13:54
  * @description: 文章关联信息表
  */
-@Data
+@Setter
+@Getter
 public class RelationShipEntiry {
 
     /**

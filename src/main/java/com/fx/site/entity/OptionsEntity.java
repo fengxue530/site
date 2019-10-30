@@ -1,13 +1,16 @@
 package com.fx.site.entity;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * @auther: mabaofeng
  * @date: 2019/10/29 13:49
  * @description: 网站配置项实体
  */
-@Data
+@Setter
+@Getter
 public class OptionsEntity {
 
     /** 名称 */

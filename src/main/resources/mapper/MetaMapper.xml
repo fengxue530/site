@@ -7,7 +7,7 @@
     </sql>
 
     <sql id="RELATION_SHIP_TABLE">
-        <include refid="cn.luischen.dao.RelationShipDao.BASE_TABLE"/>
+        <include refid="com.fx.site.dao.RelationShipDao.BASE_TABLE"/>
     </sql>
 
     <!-- 基本列 -->
@@ -73,7 +73,7 @@
 
     <!-- 根据条件获取项目 -->
     <select id="getMetasByCond" resultType="com.fx.site.entity.MetaEntity"
-            parameterType="cn.luischen.dto.cond.MetaCond">
+            parameterType="com.fx.site.dto.cond.MetaCond">
         SELECT
         <include refid="BASE_COLUMN"/>
         FROM
@@ -106,7 +106,7 @@
         <result column="parent" jdbcType="INTEGER" property="parent" />
     </resultMap>
 
-    <resultMap id="MetaDto" type="cn.luischen.dto.MetaDto" extends="BaseResultMap">
+    <resultMap id="MetaDto" type="com.fx.site.dto.MetaDto" extends="BaseResultMap">
         <result column="count" property="count" jdbcType="INTEGER"/>
     </resultMap>
 
